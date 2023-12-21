@@ -1,0 +1,25 @@
+==> window object
+
+  The window object is like the overall environment or "outer container" of a web page. It represents the entire browser window and provides a global scope for JavaScript code. Essentially, it acts as a container for various properties and methods that relate to the browser itself. For example, you can use the window object to manage the size and position of the browser window, set timeouts, handle alerts, and more. It's a top-level object that encapsulates the entire browsing context.
+
+  The document object can be accessed with a window.document or just document.
+
+  Syntax:
+
+  document.property_name;
+
+
+
+==> Document object
+
+  On the other hand, the document object is specific to the content of a web page. It represents the HTML document loaded in the browser and provides access to the structure and content of that document. With the document object, you can manipulate and interact with the elements on the page. For instance, you can access and modify HTML elements, create new elements dynamically, handle events like button clicks, and change the content of the page. The document object is more focused on the actual content and structure of the web page itself.
+
+  Syntax: 
+
+  window.property_name;
+
+
+
+
+In summary, while the window object represents the entire browser window and provides global functionalities, the document object is specific to the content of a web page, offering methods and properties for working with the HTML document within that window.
+The document is part of BOM (browser object model) and dom (Document object model).	The window is part of BOM, not DOM.
